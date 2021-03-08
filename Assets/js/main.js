@@ -1,7 +1,7 @@
 // Palindroma
 
 // Chiedo all’utente di inserire una parola
-// var parola = prompt("Inserisci una parola")
+var parola = prompt("Inserisci una parola")
 // Creo una variabile che mi inverte il senso di lettura della parola scelta
 var parolaAlContrario = parola.split("").reverse().join("");
 // Creo una funzione per verificare se la parola inserita è palindroma
